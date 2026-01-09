@@ -156,13 +156,13 @@ for linha in LINHAS:
                                 dados_consolidados.append({
                                     "Linha": linha,
                                     "Tipo Rede": rede_tipo,
-                                    "Região Geográfica": regiao,
+                                    "Região": regiao,
                                     "Estado": estado,
                                     "Cidade": cidade_prestador,
-                                    "Produto (Slug)": produto_slug,
+                                    "Produto": produto_slug,
                                     "Plano": plano_nome,
                                     "Prestador": nome_prestador,
-                                    "Modalidade/Status": status
+                                    "Modalidade": status
                                 })
                         except Exception:
                             # ignora erro pontual por prestador
