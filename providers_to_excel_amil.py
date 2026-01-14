@@ -14,7 +14,7 @@ HEADERS = {
     "Content-Type": "application/json",
     "X-Requested-With": "XMLHttpRequest",
     "Origin": "https://kitcorretoramil.com.br",
-    "Referer": "https://kitcorretoramil.com.br/linha-amil/resumo-da-rede/",
+    "Referer": "https://kitcorretoramil.com.br/santahelena/resumo-de-rede",
 }
 
 REGIOES = {

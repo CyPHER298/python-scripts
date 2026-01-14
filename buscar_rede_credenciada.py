@@ -14,7 +14,7 @@ from dotenv import load_dotenv
 SFTP_URL = "sftp://AppAdmin@192.168.9.4:2022/Atendimentoaocorretor-GoTolky/configuracao/arquivos_base/Valores-amil.xlsx"
 SHEET_NAME = "Sheet1"   # ajuste se a aba da rede for outra
 
-COD_LINHA = 'Linhas'
+COD_LINHA = 'Linha'
 COD_TIPO_REDE = 'Tipo Rede'
 COD_REGIAO = 'Região'
 COD_ESTADO = 'Estado'

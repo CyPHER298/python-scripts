@@ -5,7 +5,7 @@ import pandas as pd
 #  CONFIGURAÇÃO 
 # ============================= 
 
-url = "https://kitcorretoramil.com.br/wp-admin/admin-ajax.php?action=ktc_get_price_table_values" 
+url = "https://app.kitcorretoramil.com.br/api/planos/getWithFilters?linha_de_plano=Linha%20Santa%20Helena%20PME&numero_de_vidas_plano=2%20a%2029&regiao_plano=MAUA&contratacao=MEI&verticalizadas=1" 
 
 payload = { 
     "pf": "false",
@@ -94,7 +94,7 @@ if not isinstance(data, dict):
 # ============================= 
 
 faixas = [
-    "0-18",
+    "00-18",
     "19-23",
     "24-28",
     "29-33",
